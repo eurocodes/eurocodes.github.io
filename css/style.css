@@ -254,6 +254,10 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
   margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  
 }
 
 .contact-details:hover {
