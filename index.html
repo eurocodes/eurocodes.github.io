@@ -1,120 +1,257 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Ugochukwu Umeoke">
-  <title>Ugeo Emmanuel| Welcome</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Welcome | Ugochukwu</title>
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div id="branding">
-        <h1><span class="highlight">Ugochukwu</span> Umeoke</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#showcase">About</a></li>
-          <li><a href="#boxes">Prjects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo">Ugochukwu Umeoke</a>
+            </div>
 
-  <section id="showcase">
-    <div class="container">
-      <h1>Hello! Welcome to my Personal Profile website, my name is Ugochukwu</h1>
-      <p>I am a website designer. I can help you build your e-commerce websit, web application and mobile apps</p>
-    </div>
-  </section>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-  <section id="about">
-    <div class="container">
-      <h1>About Me</h1>
-      <p>
-        I am young resourceful and very energatic. I am a Petroleun Engineer by Academic qualification. I have grown
-        interest in web, web app & software development. My soft skills revolves around Javascript, Node.JS, ReactJS
-        and ofcourse HTML5 & CSS3. I am currently diving into Machine learning/Deep Learning with Python. I am also
-        proficient in data processing and management and the use of Microsoft tools such as Word, Excel, Power
-        Point, One Note etc. I also have excellent dexterity in the use of internet and integrated technologies. I
-        have keen interest in Technology and its advancement, research and development and engineering designs.
-      </p>
-    </div>
-  </section>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-  <section id="projects-header">
-    <div class="center-container">
-      <h1>Some of my Projects</h1>
-    </div>
-  </section>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, I am<br><span class="home__title-color">Ugochukwu Umeoke</span><br>Software
+                    Engineer,<br> Web
+                    Developer</h1>
 
-  <section id="boxes">
-    <div class="container">
-      <div class="box">
-        <a href="https://expo.io/@emmanuelum/mentorship-mobile" target="_blank" class="project-tile" id="landing">
-          <img src="./images/expo_project.PNG">
-        </a>
-        <h3>Mobile App [With React Native]</h3>
-        <p>The hillcity mentorship app is a mobile version of hillcity online module.
-          The goal of this application is to facilitate seamless interaction and Engagement between mentors &amp;
-          protegees. This app is still on development so features will keep changing from time to time</p>
-      </div>
-      <div class="box">
-        <a href="budget/budget.html" target="_blank" class="project-tile" id="budget">
-          <img src="./images/mybudgetproject.JPG">
-        </a>
-        <h3>Budget Calculator</h3>
-        <p>This was designed for the fun of vanilla Javascript. It is called Budgety, used for calculating monthle
-          budget in
-          terms of income & expenses</p>
-      </div>
-      <div class="box">
-        <a href="piggy/dice.html" target="_blank" class="project-tile" id="dice">
-          <img src="./images/mypiggyproject.JPG">
-        </a>
-        <h3>Piggy</h3>
-        <p>Piggy is a game also built with vanilla Javascript. I was intended for two players. The players set a winning
-          score then start playing. Whoever reaches the winning score first becomes the winner.</p>
-      </div>
-    </div>
-    <a href="https://codepen.io/emmanuelum/" class="btn btn-show-all" target="_blank">Codepen<i
-        class="fa fa-chevron-right"></i></a>
-  </section>
+                <a href="#contact" class="button">Contact</a>
+            </div>
 
-  <section id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <h2>Let's work together</h2>
-      <p>Would you like to get intouch?</p>
-    </div>
-    <div class="contact-link">
-      <a id="profile-link" href="https://github.com/eurocodes" target="_blank" class="btn contact-details">
-        <i class="fa fa-github-square" style="font-size:36px"></i></a>
+            <div class="home__social">
+                <a href="https://github.com/eurocodes" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ugochukwu-umeoke-30669191/" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            </div>
 
-      <a href="https://twitter.com/iam_deveu?s=09" target="_blank" class="btn contact-details">
-        <i class="fa fa-twitter-square" style="font-size:36px;color: #0892d0;"></i></a>
+            <div class="home__img">
+                <img src="assets/img/perfil.jpg" alt="">
+            </div>
+        </section>
 
-      <a href="https://wa.me/2348061335242" class="btn contact-details">
-        <i class="fa fa-whatsapp" style="font-size:36px;color:#60f152"></i>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
 
-        <a href="https://www.linkedin.com/in/ugochukwu-umeoke-30669191/" class="btn contact-details">
-          <i class="fa fa-linkedin-square" style="font-size:36px;color: #3766e9;"></i>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
 
-          <a href="mailto:u.umeoke@yahoo.com" class="btn contact-details">
-            <i class="fa fa-at" style="font-size:36px;color: #f0f0f0;"></i></a>
+                <div>
+                    <h2 class="about__subtitle">My name is Ugochukwu</h2>
+                    <p class="about__text">I am a full-stack Javascript Developer with mid level
+                        experience. I am resourceful, energetic and self motivated. I am
+                        passionate about productivity, development with best practices and learning
+                        while building new things. Most of my projects are built using Javascript and its framework.</p>
+                </div>
+            </div>
+        </section>
 
-          <a href="tel:0806-133-5242" class="btn contact-details">
-            <i class="fa fa-phone" style="font-size:36px;color: #5e6a6e;"></i></a>
-    </div>
-  </section>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-  <footer>
-    <p>&copy; 2019 Ugochukwu Umeoke</p>
-  </footer>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Technologies</h2>
+                    <p class="skills__text">Below are the technologies I am most proficient with.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon'></i>
+                            <span class="skills__name">React & React Native</span>
+                        </div>
+                        <div class="skills__bar skills__react">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-nodejs skills__icon'></i>
+                            <span class="skills__name">NodeJS</span>
+                        </div>
+                        <div class="skills__bar skills__nodejs">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon'></i>
+                            <span class="skills__name">MySQL, Postgres, Mongodb</span>
+                        </div>
+                        <div class="skills__bar skills__sql">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-git skills__icon'></i>
+                            <span class="skills__name">Version Control with Git</span>
+                        </div>
+                        <div class="skills__bar skills__version-control">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/machine.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <a href="https://emmazone-store.herokuapp.com/" target="_blank">
+                        <img src="assets/img/emmazone.PNG" alt="Emmazone Store Home page">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="projects/budget/budget.html" target="_blank">
+                        <img src="assets/img/budget.JPG" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="projects/mobile/mobile1.html" target="_blank">
+                        <img src="assets/img/expo_1.PNG" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="projects/mobile/fasd_mobile.html" target="_blank">
+                        <img src="assets/img/FASD_logo.png" alt="Mobile App two">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="projects/piggy/dice.html" target="_blank">
+                        <img src="assets/img/piggy.JPG" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/EUTeckSoft_logo.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Get in touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form id="form-field" class="contact__form">
+                    <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                    <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                    <input type="text" name="subject" placeholder="Subject" class="contact__input" required>
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea>
+                    <input type="submit" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Ugochukwu Umeoke</p>
+        <div class="footer__social">
+            <a href="https://github.com/eurocodes" target="_blank" class="footer__icon"><i
+                    class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/ugochukwu-umeoke-30669191/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://twitter.com/iam_deveu?s=09" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://wa.me/2348061335242" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+            <a href="tel:0806-133-5242" class="footer__icon"><i class='bx bxs-phone'></i></a>
+        </div>
+        <p id="copy-right"></p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
