@@ -484,3 +484,13 @@ img{
     right: 10%;
   }
 }
+@media screen and (max-width: 768px) {
+  .work__img {
+    width: 80%;
+    height: 30vh;
+    margin: 0 10% 0 10%;
+  }
+  .shown {
+    font-size: 0.5rem;
+  }
+}
