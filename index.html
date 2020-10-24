@@ -9,6 +9,9 @@
 
     <!-- =====BOX ICONS===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" type="text/css">
 
     <title>Welcome | Ugochukwu</title>
 </head>
@@ -41,9 +44,10 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi, I am<br><span class="home__title-color">Ugochukwu Umeoke</span><br>Software
-                    Engineer,<br> Web
-                    Developer</h1>
+                <h1 class="home__title">Hi, I am<br><span class="home__title-color">Ugochukwu Umeoke</span><br>A
+                    <span class="typed" data-period="200"
+                        data-rotate='[ "Software Engineer,","Web Developer,", "Mobile App Developer", "Cloud Engineer." ]'></span>
+                </h1>
 
                 <a href="#contact" class="button">Contact</a>
             </div>
@@ -183,34 +187,63 @@
         <section class="work section" id="work">
             <h2 class="section-title">Projects</h2>
 
-            <div class="work__container bd-grid">
+            <div class="work__container bd-grid" id="project">
                 <div class="work__img">
                     <a href="https://emmazone-store.herokuapp.com/" target="_blank">
-                        <img src="assets/img/emmazone.PNG" alt="Emmazone Store Home page">
+                        <img class="image" src="assets/img/emmazone.PNG" alt="Emmazone Store Home page">
+                        <div class="carousel-caption">
+                            <h6 class="light-text hidden">An amazon look alike e-commerce store. This app was built with
+                                React and Redux, used mongodb and hosted on heroku. <br>Click to view project</h6>
+                        </div>
                     </a>
                 </div>
                 <div class="work__img">
                     <a href="projects/budget/budget.html" target="_blank">
-                        <img src="assets/img/budget.JPG" alt="">
+                        <img class="image" src="assets/img/budget.JPG" alt="">
+                        <div class="carousel-caption">
+                            <h6 class="light-text hidden">This was designed for the fun of Javascript. It is called
+                                Budgety, used for calculating monthle budget in terms of income & expenses. I hope to
+                                add more features like user dashboard</h6>
+                        </div>
                     </a>
                 </div>
                 <div class="work__img">
                     <a href="projects/mobile/mobile1.html" target="_blank">
-                        <img src="assets/img/expo_1.PNG" alt="">
+                        <img class="image" src="assets/img/expo_1.PNG" alt="">
+                        <div class="carousel-caption">
+                            <h6 class="light-text hidden">This is a mentorship app. It was built to facilitate seamless
+                                interaction and between mentors & protegees. This app is still on development so
+                                features
+                                will keep changing from time to time</h6>
+                        </div>
                     </a>
                 </div>
-                <div class="work__img">
+                <div class="work__img transparent">
                     <a href="projects/mobile/fasd_mobile.html" target="_blank">
-                        <img src="assets/img/FASD_logo.png" alt="Mobile App two">
+                        <img class="image" src="assets/img/FASD_logo.png" alt="Mobile App two">
+                        <div class="carousel-caption">
+                            <h6 class="light-text hidden">FASD-III is a security software that enables property owners
+                                and security personnels watch over their properties from anywhere at all. It uses
+                                artificial Intelligence to detect intrusions.</h6>
+                        </div>
                     </a>
                 </div>
                 <div class="work__img">
                     <a href="projects/piggy/dice.html" target="_blank">
-                        <img src="assets/img/piggy.JPG" alt="">
+                        <img class="image" src="assets/img/piggy.JPG" alt="">
+                        <div class="carousel-caption">
+                            <h6 class="light-text hidden">Piggy is a game built with Javascript. It was intended for two
+                                players. The players set a winning score then start playing. Whoever reaches the winning
+                                score first becomes the winner.<br>Click to view project</h6>
+                        </div>
                     </a>
                 </div>
-                <div class="work__img">
-                    <img src="assets/img/EUTeckSoft_logo.png" alt="">
+                <div class="work__img transparent">
+                    <img class="image" src="assets/img/EUTeckSoft_logo.png" alt="">
+                    <div class="carousel-caption">
+                        <h6 class="light-text hidden">Coming soon<br>A company website built with react and styled
+                            components.</h6>
+                    </div>
                 </div>
             </div>
         </section>
